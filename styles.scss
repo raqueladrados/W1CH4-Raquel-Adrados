@@ -4,17 +4,37 @@
 
 html,
 body {
-  background-color: antiquewhite;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
 }
 
 .title__category {
-  color: orange;
+  color: #ed6436;
 }
 
 .button {
+  position: inherit;
 }
 
 .information {
-  background-color: orange;
-  float: right;
+  background-color: #ed6436;
+}
+
+.principal-container {
+  justify-content: space-between;
+}
+
+.gallery_photos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gallery__container {
+  flex: 1;
+}
+
+.gallery__container img {
+  width: 100%;
+  height: 100%;
 }
