@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   background-color: antiquewhite;
@@ -5,4 +9,12 @@ body {
 
 .title__category {
   color: orange;
+}
+
+.button {
+}
+
+.information {
+  background-color: orange;
+  float: right;
 }
